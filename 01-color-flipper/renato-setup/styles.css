@@ -1,0 +1,85 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+/* Global Styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.45;
+  font-size: 0.845rem;
+}
+
+/* NAV CSS */
+
+nav {
+  background-color: white;
+}
+
+.nav-center {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95vw;
+  height: 3rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  margin: 0;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* BODY CSS */
+
+main {
+  min-height: calc(100vh - 3rem);
+  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.container h2 {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 2rem;
+}
+
+.container button {
+  padding: 8px 30px 8px 30px;
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.color {
+  color: lightblue;
+}
